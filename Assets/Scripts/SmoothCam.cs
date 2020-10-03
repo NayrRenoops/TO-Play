@@ -10,10 +10,10 @@ public class SmoothCam : MonoBehaviour
     public float speedofIncrease = 3;
 
     //Min and max-values the camera can move to.
-    private float MAX_X = 2f;
-    private float MIN_X = -2f;
-    private float MAX_Y = 1f;
-    private float MIN_Y = -1f;
+    public float MAX_X = 2f;
+    public float MIN_X = -2f;
+    public float MAX_Y = 1f;
+    public float MIN_Y = -1f;
 
 
     //The current x and y movement of the cursor

@@ -41,12 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Rat (anim)
-    uniqueID: 3789508501
+  - name: Flat
+    uniqueID: 3376622601
     locked: 0
-  - name: Subway Train (anim)
-    uniqueID: 1124977507
+  - name: Parallax
+    uniqueID: 3267680509
     locked: 0
-  - name: Subway Doors (anim)
-    uniqueID: 2136262131
+  - name: FX
+    uniqueID: 1656985451
     locked: 0
