@@ -769,6 +769,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraSpeed: 25
   speedofIncrease: 1
+  MAX_X: 2
+  MIN_X: -2
+  MAX_Y: 1
+  MIN_Y: -1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
