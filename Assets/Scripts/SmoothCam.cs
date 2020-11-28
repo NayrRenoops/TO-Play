@@ -15,7 +15,6 @@ public class SmoothCam : MonoBehaviour
     public float MAX_Y = 1f;
     public float MIN_Y = -1f;
 
-
     //The current x and y movement of the cursor
     private float Xmouse;
     private float Ymouse;
