@@ -1212,7 +1212,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 10.521715, y: -7.212705}
+  m_Offset: {x: 10.561386, y: -7.212705}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1223,7 +1223,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 14.247734, y: 4.4385138}
+  m_Size: {x: 14.168392, y: 4.4385138}
   m_EdgeRadius: 0
 --- !u!1 &1802524705
 GameObject:
@@ -1237,7 +1237,7 @@ GameObject:
   - component: {fileID: 1802524708}
   - component: {fileID: 1802524707}
   m_Layer: 0
-  m_Name: sink
+  m_Name: (E) sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1568,6 +1568,7 @@ GameObject:
   - component: {fileID: 2015659028}
   - component: {fileID: 2015659022}
   - component: {fileID: 2015659025}
+  - component: {fileID: 2015659026}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1605,9 +1606,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -67.034996
-    y: -108.8856
-    width: 101.51935
+    x: 1.809906
+    y: -243.60431
+    width: 106.64081
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1617,6 +1618,7 @@ MonoBehaviour:
   eventHandler: {fileID: 2015659014}
   commandList:
   - {fileID: 2015659020}
+  - {fileID: 2015659026}
   - {fileID: 2015659023}
   suppressAllAutoSelections: 0
 --- !u!114 &2015659016
@@ -1632,19 +1634,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 169.2584, y: 417.27692}
+  scrollPos: {x: 149.49922, y: 415.0313}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7569972
+  zoom: 0.76799744
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 2015659027}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -1754,9 +1755,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 50.69755
-    y: -250.4633
-    width: 106.803375
+    x: -118.85909
+    y: -359.30685
+    width: 109.896034
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1853,6 +1854,26 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 1802524707}
   waitFrames: 1
+--- !u!114 &2015659026
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015659013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 16
+  indentLevel: 0
+  spriteRenderer: {fileID: 1605590446}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
 --- !u!114 &2015659027
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1867,9 +1888,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 95.766136
-    y: -70.507484
-    width: 92.27228
+    x: -1.007061
+    y: -193.8909
+    width: 96.22411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1922,17 +1943,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: i am a sink
+  storyText: 'i am a sink '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
-  showCount: 1
+  showCount: 10
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
+  waitForClick: 0
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &2015659031
@@ -1949,14 +1970,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 201.94505
-    y: -105.51883
-    width: 109.4454
+    x: -1.2985535
+    y: -135.70299
+    width: 111.19812
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 12
-  blockName: New Block
+  blockName: Sink Block
   description: 
   eventHandler: {fileID: 2015659025}
   commandList:
