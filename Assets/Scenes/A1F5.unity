@@ -605,7 +605,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122
     y: 195.5
-    width: 98
+    width: 95.39392
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -650,7 +650,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 123
     y: 258.5
-    width: 66
+    width: 66.021385
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -693,7 +693,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117
     y: 129.5
-    width: 95
+    width: 93.39125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -736,7 +736,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 114
     y: 76
-    width: 72
+    width: 71.36185
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -778,7 +778,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5
     y: 34
-    width: 111
+    width: 108.74509
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -801,19 +801,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -40, y: 21}
+  scrollPos: {x: -28.5275, y: 78.30382}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.7489989
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 468866728}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -2152,7 +2151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Character Name
+  nameText: PaTTriCian
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
