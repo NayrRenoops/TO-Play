@@ -456,7 +456,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 119.46591
     y: 366.11972
-    width: 131.7308
+    width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -483,7 +483,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117.431625
     y: 313.15268
-    width: 74.57266
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117.431625
     y: 214.99898
-    width: 108.226524
+    width: 108
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -537,7 +537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117
     y: 262.9988
-    width: 127.99149
+    width: 128
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -564,7 +564,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 121.17197
     y: 166.4779
-    width: 142.94876
+    width: 142
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -591,7 +591,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 120.097855
     y: 125.91876
-    width: 124.78636
+    width: 125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -661,7 +661,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 116.18383
     y: 83.35962
-    width: 134.40176
+    width: 135
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -703,7 +703,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 12.863247
     y: 44.863243
-    width: 111.431656
+    width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -727,11 +727,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -15.4685, y: -24.788317}
+  scrollPos: {x: -3.1719666, y: -6.9779053}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.9359995
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -739,9 +739,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 87339083}
-  selectedCommands:
-  - {fileID: 87339089}
+  - {fileID: 87339078}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -850,7 +849,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &87339089
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
