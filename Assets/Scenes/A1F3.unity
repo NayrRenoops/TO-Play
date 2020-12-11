@@ -635,7 +635,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1478,7 +1478,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 90.2215
     y: 128.32462
-    width: 118.53153
+    width: 117.132935
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1549,7 +1549,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 88.84598
     y: 194.34943
-    width: 125.52454
+    width: 128.32175
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1689,7 +1689,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 90.2215
     y: 345.65634
-    width: 72.37764
+    width: 71.678345
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1832,7 +1832,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 90.2215
     y: 444.6936
-    width: 115.73433
+    width: 116.43363
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1902,7 +1902,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 90.2215
     y: 509.34293
-    width: 121.32874
+    width: 122.02804
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1972,7 +1972,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 90.2215
     y: 572.6164
-    width: 136.71338
+    width: 136.01407
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2042,7 +2042,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 120.379684
     y: 67.85687
-    width: 66.78323
+    width: 65.38463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
