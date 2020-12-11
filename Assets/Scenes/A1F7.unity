@@ -1686,6 +1686,7 @@ GameObject:
   - component: {fileID: 1538215485}
   - component: {fileID: 1538215484}
   - component: {fileID: 1538215483}
+  - component: {fileID: 1538215503}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1707,7 +1708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: tbd
+  storyText: What do we have here?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1734,10 +1735,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: 'Boy. If these walls could talk... actually maybe they do, heard this
-    place was haunted '
+  storyText: Imagine living in your very own castle, what a luxury that would be!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1680078367}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1762,9 +1762,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Hm another glowing blue line, very strange indeed.
+  storyText: Notice hoe you were guided here by the blue line...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1680078367}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1789,8 +1789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: Take this grand staircase up tho historic Casa Loma for some of the
-    best views in the city
+  storyText: This staircase leads to some of the best view in the city!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1817,7 +1816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: tbd
+  storyText: These trees seem to be no match for the wind!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1844,7 +1843,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: tbd
+  storyText: 'Going up these steps could elevate us from the rising water level,
+    but we won''t be safe for long. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1889,7 +1889,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.850235
     y: 357.5
-    width: 103.787094
+    width: 105.27655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1932,7 +1932,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.850235
     y: 300.5
-    width: 110.373276
+    width: 112.81427
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1942,6 +1942,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1538215491}
   commandList:
   - {fileID: 1538215484}
+  - {fileID: 1538215503}
   suppressAllAutoSelections: 0
 --- !u!114 &1538215493
 MonoBehaviour:
@@ -1975,7 +1976,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 58.850235
     y: 238.5
-    width: 156.4765
+    width: 158.66869
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2019,7 +2020,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.850235
     y: 153.5
-    width: 118.057144
+    width: 120.35198
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2062,7 +2063,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67.850235
     y: 86.5
-    width: 138.91336
+    width: 140.45255
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2104,7 +2105,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17
     y: 40
-    width: 109.27557
+    width: 110.92984
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2127,19 +2128,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 17.929186, y: 21.173117}
+  scrollPos: {x: 58.20489, y: 56.804905}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.9109991
+  zoom: 0.7959975
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1538215490}
+  selectedCommands:
+  - {fileID: 1538215483}
   variables: []
   description: 
   stepPause: 0
@@ -2165,6 +2168,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1538215503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538215482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  storyText: Correct, it would be quite beneficial to shelter at this location. Due
+    to it's elevation from the ground, the water levels would unlikely be able to
+    reach
+  description: 
+  character: {fileID: 1680078367}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1590932658
 GameObject:
   m_ObjectHideFlags: 0
@@ -2346,6 +2378,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1680078366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1680078368}
+  - component: {fileID: 1680078367}
+  m_Layer: 0
+  m_Name: PaTTriCia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1680078367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680078366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: PaTTriCia
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1680078368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680078366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1773316063
 GameObject:

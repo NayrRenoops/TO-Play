@@ -159,6 +159,8 @@ GameObject:
   - component: {fileID: 13366746}
   - component: {fileID: 13366745}
   - component: {fileID: 13366744}
+  - component: {fileID: 13366769}
+  - component: {fileID: 13366768}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -198,7 +200,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 113.322975
     y: 47.827423
-    width: 88.74829
+    width: 85.767654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -240,7 +242,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5
     y: 4.5983233
-    width: 112.5934
+    width: 109.61276
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -276,7 +278,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 13366755}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 13366768}
   variables: []
   description: 
   stepPause: 0
@@ -316,7 +319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: tbd
+  storyText: 'another medallion, for what? '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -343,10 +346,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: 'It''s interesting how Waterworks Inc seems awfully close to the legislative
-    building. Maybe being neighbours has given them a leg up... '
+  storyText: Waterworks has managed to create the problem that they are the only
+    solution for. The government is asking for their help but it was Waterworks'
+    poor infrastructure that got us here.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1608900886}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -400,7 +404,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: 'Rightfully so. Now '
+  storyText: 'Rightfully so, and in the past it hasn''t gone our way. The voices
+    of our indeigienous people were ignored when their water was taken away, it may
+    be up to our citizen to continue their fight for justice. '
   description: 
   character: {fileID: 1608900886}
   portrait: {fileID: 0}
@@ -427,8 +433,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: 'This corruption couldn''t have been at the hands of a single evil,
-    this has got to be a group effort. '
+  storyText: This corruption couldn't have been at the hands of a single evil, there
+    is evidence of a powerful force thats going to be tough to bring down...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -455,8 +461,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: "It seems as that this water crisis is now truly dividing us from those
-    in power \nThats right, I'm capable of noticing metaphors "
+  storyText: it seems as that this water crisis is now truly dividing us from those
+    in power. That's right, I'm capable of noticing metaphors.
   description: 
   character: {fileID: 1608900886}
   portrait: {fileID: 0}
@@ -483,8 +489,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: 'These rising water levels are really making the Legislative building
-    look like a castle on a moat. '
+  storyText: Woah this is really making thae legislative building look like a castle
+    on a moat
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -612,7 +618,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 108.851036
     y: 440.3507
-    width: 120.045
+    width: 116.3192
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -622,6 +628,7 @@ MonoBehaviour:
   eventHandler: {fileID: 13366754}
   commandList:
   - {fileID: 13366744}
+  - {fileID: 13366768}
   suppressAllAutoSelections: 0
 --- !u!114 &13366756
 MonoBehaviour:
@@ -655,7 +662,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 108.173355
     y: 276.9235
-    width: 128.98691
+    width: 125.26111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -698,7 +705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.20576
     y: 337.51877
-    width: 140.90945
+    width: 134.20303
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -708,6 +715,7 @@ MonoBehaviour:
   eventHandler: {fileID: 13366758}
   commandList:
   - {fileID: 13366745}
+  - {fileID: 13366769}
   suppressAllAutoSelections: 0
 --- !u!114 &13366760
 MonoBehaviour:
@@ -741,7 +749,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 106.48287
     y: 391.5403
-    width: 112.5934
+    width: 108.122444
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -785,7 +793,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.25509
     y: 225.50516
-    width: 209.46414
+    width: 198.28674
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -829,7 +837,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105.06959
     y: 179.05023
-    width: 126.00627
+    width: 122.28047
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -872,7 +880,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 107.590034
     y: 117.03402
-    width: 90.23862
+    width: 88.003136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -883,6 +891,62 @@ MonoBehaviour:
   commandList:
   - {fileID: 13366752}
   suppressAllAutoSelections: 0
+--- !u!114 &13366768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13366737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  storyText: These medallions seem to both have intersected with the blue lines.
+    Let's see where it takes us next!
+  description: 
+  character: {fileID: 1608900886}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &13366769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13366737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  storyText: Their buildings are awfully close to one another... might be onto something
+    here
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &85939440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1850,6 +1914,86 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &626502851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 626502855}
+  - component: {fileID: 626502854}
+  - component: {fileID: 626502853}
+  - component: {fileID: 626502852}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &626502852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626502851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d49b7c1bcd2e07499844da127be038d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ForceModuleActive: 0
+--- !u!114 &626502853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626502851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &626502854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626502851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &626502855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626502851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &648676405
 GameObject:
@@ -2966,7 +3110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Character Name
+  nameText: PaTTriCia
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits: []

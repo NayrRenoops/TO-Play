@@ -1472,6 +1472,9 @@ GameObject:
   - component: {fileID: 1367748809}
   - component: {fileID: 1367748808}
   - component: {fileID: 1367748807}
+  - component: {fileID: 1367748828}
+  - component: {fileID: 1367748827}
+  - component: {fileID: 1367748826}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1509,7 +1512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: 
+  storyText: This embossed structure coming from the ground, what could it be?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1579,7 +1582,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: 
+  storyText: 'A third medallion! Adhering to the rule of three''s, this isl ikely
+    the final one.
+
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1618,6 +1625,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1367748810}
   commandList:
   - {fileID: 1367748811}
+  - {fileID: 1367748826}
   suppressAllAutoSelections: 0
 --- !u!114 &1367748813
 MonoBehaviour:
@@ -1649,7 +1657,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: 
+  storyText: Wait that can't be... the blue line just ended! It has to be leading
+    to something.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1719,7 +1728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: 
+  storyText: Garrison Creek? That name sounds all too familiar...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1758,6 +1767,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1367748816}
   commandList:
   - {fileID: 1367748817}
+  - {fileID: 1367748827}
   suppressAllAutoSelections: 0
 --- !u!114 &1367748819
 MonoBehaviour:
@@ -1773,7 +1783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: 
+  storyText: "Ah, Trinity Bellwoods, the heart of Toronto's hipster culture. \n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1828,6 +1838,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1367748820}
   commandList:
   - {fileID: 1367748819}
+  - {fileID: 1367748828}
   suppressAllAutoSelections: 0
 --- !u!114 &1367748822
 MonoBehaviour:
@@ -1894,8 +1905,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1367748809}
+  selectedCommands:
+  - {fileID: 1367748808}
   variables: []
   description: 
   stepPause: 0
@@ -1921,6 +1934,92 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1367748826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367748806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  indentLevel: 0
+  storyText: Ideally. These medallions are rather bulky to say the least..."
+  description: 
+  character: {fileID: 1688411283}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1367748827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367748806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 16
+  indentLevel: 0
+  storyText: '*Beep boop*, after a system search I have concluded that Garrison Creek
+    is the name of one of the ''Lost Rivers'' Indigenious to this land. This means
+    that these blue lines represent where these rivers once flourished. Today, they
+    are merely the ''Toronto combined sewage system'''
+  description: 
+  character: {fileID: 1688411283}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1367748828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367748806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  storyText: 'However, behind the picnics, buskers and man-buns is evidence of historical
+    water burried and forgotten. That land basin should give an indication at how
+    deep this radius used to be. '
+  description: 
+  character: {fileID: 1688411283}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1414755887
 GameObject:
   m_ObjectHideFlags: 0
@@ -2236,6 +2335,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1688411282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1688411284}
+  - component: {fileID: 1688411283}
+  m_Layer: 0
+  m_Name: PaTTriCia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1688411283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688411282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: PaTTriCia
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1688411284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688411282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1694296074
 GameObject:

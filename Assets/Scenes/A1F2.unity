@@ -179,10 +179,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 70762116}
-  selectedCommands:
-  - {fileID: 70762114}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -224,7 +222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: tbd
+  storyText: "This is a shared space, not a garbage disposal! \nPeople can beb so
+    careless sometimes "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -294,7 +293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: 
+  storyText: Moving along pretty well
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -321,14 +320,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 122
+    x: 120.72773
     y: 236.22774
-    width: 177.86281
+    width: 167.68466
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 13
-  blockName: Subway Car Window L
+  blockName: Subway Car Window
   description: 
   eventHandler: {fileID: 70762105}
   commandList:
@@ -364,7 +363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: 
+  storyText: Ah good, Ossington stateion means home is near!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -434,7 +433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: 
+  storyText: 'Another Waterworks ad? They''ve gotta have some insane marketing budget '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -488,7 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: tbd
+  storyText: Better give this a read it seems pretty serious...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
