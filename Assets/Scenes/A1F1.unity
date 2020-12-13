@@ -259,6 +259,7 @@ GameObject:
   - component: {fileID: 87339091}
   - component: {fileID: 87339092}
   - component: {fileID: 87339090}
+  - component: {fileID: 87339093}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -469,7 +470,8 @@ MonoBehaviour:
   eventHandler: {fileID: 87339067}
   commandList:
   - {fileID: 87339086}
-  suppressAllAutoSelections: 0
+  - {fileID: 87339093}
+  suppressAllAutoSelections: 1
 --- !u!114 &87339074
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -486,7 +488,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117.431625
     y: 313.15268
-    width: 74.57642
+    width: 75.42389
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -513,7 +515,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117.431625
     y: 214.99898
-    width: 107.62747
+    width: 109.3224
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -540,7 +542,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117
     y: 262.9988
-    width: 127.119125
+    width: 127.96658
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -567,7 +569,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 121.17197
     y: 166.4779
-    width: 144.06839
+    width: 141.526
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -594,7 +596,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 120.097855
     y: 125.91876
-    width: 124.57674
+    width: 122.881805
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -664,7 +666,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 116.18383
     y: 83.35962
-    width: 134.74629
+    width: 133.05136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -743,7 +745,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 87339073}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 87339086}
   variables: []
   description: 
   stepPause: 0
@@ -783,7 +786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: Enter the subway car?
+  storyText: 'Enter the subway car? '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -920,7 +923,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117.74286
     y: 423.4253
-    width: 88.98329
+    width: 87.28837
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -947,6 +950,25 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 776396804}
   waitFrames: 1
+--- !u!114 &87339093
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87339063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: A1F2
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &97045318
 GameObject:
   m_ObjectHideFlags: 0
