@@ -200,7 +200,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 113.322975
     y: 47.827423
-    width: 85.767654
+    width: 85.117256
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -242,7 +242,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5
     y: 4.5983233
-    width: 109.61276
+    width: 110.20101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -265,11 +265,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 54.35138, y: 17.467337}
+  scrollPos: {x: 75.27348, y: 14.192572}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.67099726
+  zoom: 0.5979966
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -618,7 +618,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 108.851036
     y: 440.3507
-    width: 116.3192
+    width: 118.56226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 108.173355
     y: 276.9235
-    width: 125.26111
+    width: 126.923515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -705,7 +705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.20576
     y: 337.51877
-    width: 134.20303
+    width: 135.28476
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -749,7 +749,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 106.48287
     y: 391.5403
-    width: 108.122444
+    width: 108.52876
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -793,7 +793,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.25509
     y: 225.50516
-    width: 198.28674
+    width: 200.50253
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105.06959
     y: 179.05023
-    width: 122.28047
+    width: 123.57902
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -880,7 +880,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 107.590034
     y: 117.03402
-    width: 88.003136
+    width: 88.46176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1037,8 +1037,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 93612826}
-  - component: {fileID: 93612825}
   - component: {fileID: 93612824}
+  - component: {fileID: 93612825}
   m_Layer: 0
   m_Name: (E) The Blue Line
   m_TagString: Untagged
@@ -1061,8 +1061,8 @@ MonoBehaviour:
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
---- !u!61 &93612825
-BoxCollider2D:
+--- !u!60 &93612825
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1074,7 +1074,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 9.621857, y: -5.642784}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1084,9 +1084,28 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.94454956, y: 2.4458447}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 10.812962, y: -5.76942}
+      - {x: 10.299153, y: -5.17063}
+      - {x: 7.250839, y: -3.6774468}
+      - {x: 2.6824944, y: -2.5522778}
+      - {x: 2.7049832, y: -3.3509793}
+      - {x: 4.752735, y: -3.9668303}
+      - {x: 7.0208807, y: -4.6107273}
+      - {x: 8.171856, y: -5.0265045}
+      - {x: 8.651856, y: -5.367421}
+      - {x: 9.710472, y: -6.212688}
+      - {x: 8.833298, y: -7.347207}
+      - {x: 7.663087, y: -8.206669}
+      - {x: 5.21967, y: -9.42448}
+      - {x: 3.1139863, y: -10.175019}
+      - {x: 2.6231303, y: -10.189287}
+      - {x: 2.309167, y: -11.434812}
+      - {x: 3.2355976, y: -11.34211}
+      - {x: 10.037574, y: -8.202198}
+      - {x: 11.200579, y: -6.5836134}
+      - {x: 10.87531, y: -6.339509}
 --- !u!4 &93612826
 Transform:
   m_ObjectHideFlags: 0
@@ -1095,7 +1114,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93612823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: -0.98, y: 1.25, z: 18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2151,7 +2170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659052409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 18}
+  m_LocalPosition: {x: -0.91, y: 0.3, z: 18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2556,7 +2575,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171940537}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 18}
+  m_LocalPosition: {x: -0.91, y: 0.3, z: 18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2931,8 +2950,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraSpeed: 25
   speedofIncrease: 1
-  MAX_X: 2
-  MIN_X: -2
+  MAX_X: 1
+  MIN_X: -1
   MAX_Y: 1
   MIN_Y: -1
 --- !u!81 &1408519261
@@ -2994,7 +3013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408519259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3279,7 +3298,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -918344695
   m_SortingLayer: 1
-  m_SortingOrder: 13
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 3b5d8d74b91a949288b35d94289886cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
