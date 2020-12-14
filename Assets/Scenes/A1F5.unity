@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 245794490}
   - component: {fileID: 245794489}
   m_Layer: 0
-  m_Name: IMG_0295
+  m_Name: desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -605,7 +605,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 120.66489
     y: 196.83511
-    width: 95.39392
+    width: 98.89982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -650,7 +650,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 127.00534
     y: 266.51068
-    width: 66.021385
+    width: 67.11494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -693,7 +693,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117
     y: 129.5
-    width: 92.723694
+    width: 95.23233
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -736,7 +736,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 114
     y: 76
-    width: 71.36185
+    width: 73.22742
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -778,7 +778,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5
     y: 34
-    width: 108.74509
+    width: 111.12477
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -801,11 +801,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -28.5275, y: 78.30382}
+  scrollPos: {x: 107.068275, y: 43.218636}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7489989
+  zoom: 0.81799895
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1168,7 +1168,7 @@ GameObject:
   - component: {fileID: 1228460602}
   - component: {fileID: 1228460601}
   m_Layer: 0
-  m_Name: A1F5_Television_00001
+  m_Name: Television
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1349,7 +1349,7 @@ GameObject:
   - component: {fileID: 1274758099}
   - component: {fileID: 1274758098}
   m_Layer: 0
-  m_Name: IMG_0297
+  m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
